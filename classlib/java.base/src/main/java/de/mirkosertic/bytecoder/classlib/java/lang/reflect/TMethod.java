@@ -23,4 +23,8 @@ public class TMethod {
     public Object invoke(final Object where, final Object[] args) {
         return null;
     }
+
+    public void setAccessible(boolean flag) {
+        // ignored
+    }
 }
